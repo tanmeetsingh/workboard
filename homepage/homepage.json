@@ -1,0 +1,58 @@
+{
+	"image": "images/photo.jpg",
+	"name": "My First Edit",
+	"description": "This is TEST board! It is made using mavo!",
+	"twitter": "",
+	"facebook": "",
+	"wikipedia": "",
+	"list": [
+		{
+			"listName": "To Do",
+			"card": [
+				{
+					"cardTitle": "Show and Tell",
+					"cardDescript": "This is worth talking about, possibly?"
+				},
+				{
+					"cardTitle": "Make a Colour Thingy",
+					"cardDescript": "Something a bit like trello has?"
+				},
+				{
+					"cardTitle": "Investigate Multi-line",
+					"cardDescript": "Why is editing text single line?"
+				}
+			]
+		},
+		{
+			"listName": "Doing",
+			"card": [
+				{
+					"cardTitle": "Make things look nice",
+					"cardDescript": "As a user I want a nice looking app please!"
+				},
+				{
+					"cardTitle": "Tell Scott about it",
+					"cardDescript": "Since he is at my desk I will waste his time"
+				}
+			]
+		},
+		{
+			"listName": "Done",
+			"card": [
+				{
+					"cardTitle": "Style Cards",
+					"cardDescript": "As a user I want cards to look like cards so that I can see them for what they are"
+				},
+				{
+					"cardDescript": "As a user I want to drag cards into the correct list",
+					"cardTitle": "Drag Cards"
+				},
+				{
+					"cardTitle": "Style lists",
+					"cardDescript": "As a user I want to have horizontal lists."
+				}
+			]
+		}
+	],
+	"Project": "The is a test Project"
+}

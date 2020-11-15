@@ -1,0 +1,32 @@
+<html>
+<head>
+  <script src="https://get.mavo.io/mavo.js"></script>
+  <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main mv-app="homepage" mv-storage="https://github.com/sqoo/mav1/homepage" xmv-plugins="tinymce" xv-autosave="3" >
+
+  <h1><span class="logo">Test</span> <span property="Project"></span></h1>
+  <p property="description" class="tinymce"></p>
+
+  <div class="kanBoard">
+    <ul>
+    <li property="list" class="kanList" mv-multiple>
+      <h2 property="listName" class="ListName">Loading..</h2>
+      <ol>
+        <li property="card" class="kanCard" mv-accepts="card" mv-multiple mv-mode="edit">
+          <h2 property="cardTitle" mv-mode="edit">Loading...</h2>
+          <span property="cardDescript" mv-mode="edit">Loading...</span>    
+        </li>
+      </ol>
+    </li>
+    </ul> 
+  </div>
+
+</main>
+
+</body>
+</html>
